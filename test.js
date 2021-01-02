@@ -7,12 +7,6 @@ const DEFAULT_ITEM_ATUALIZAR = {id:1, nome:"Gandolf",classe:"Mago",passiva:"Gand
 
 describe('Casos de testes (CRUD) de personagens', () => {
 
-  // before(async () => {
-
-  //   await database.cadastrar(DEFAULT_ITEM_CADASTRAR);
-
-  // })
-
   it('Deve listar varios personagem', async () =>{
 
    const esperado = DEFAULT_ITEM_CADASTRAR;
