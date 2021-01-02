@@ -1,0 +1,26 @@
+{
+  "name": "linha-de-comando-nodejs",
+  "version": "1.0.0",
+  "description": "Criando uma Ferramenta de Linha de comando com node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipires-18/linha-de-comando-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ipires-18/linha-de-comando-nodejs/issues"
+  },
+  "homepage": "https://github.com/ipires-18/linha-de-comando-nodejs#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "commander": "^6.2.1"
+  }
+}
